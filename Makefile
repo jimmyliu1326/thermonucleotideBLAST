@@ -45,7 +45,7 @@ endif
 # read NCBI BLAST-formatted database files. This functionality is optional, and
 # can be disabled by commenting out the BLAST_DIR variable by adding the '#' symbol
 # to the start of the line below (i.e. "#BLAST_DIR").
-BLAST_DIR = $(HOME)/ncbi-blast-2.12.0+-src
+BLAST_DIR = /blast
 
 ifdef BLAST_DIR
 
