@@ -30,7 +30,7 @@ OPENMP = -fopenmp
 #CLANG_OPENMP = -Xpreprocessor -fopenmp
 
 # Define USE_MPI to enable MPI
-FLAGS = $(PROFILE) -O3 -Wall $(OPENMP) -std=c++14
+FLAGS = $(PROFILE) -O3 -Wall $(OPENMP) -std=c++14 -DUSE_MPI
 
 INC = -I. 
 LIBS = -lm -lz
